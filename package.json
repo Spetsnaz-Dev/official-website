@@ -15,6 +15,7 @@
     "nodemon": "^1.18.9",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "tachyons": "^4.11.1"
+    "tachyons": "^4.11.1",
+    "typed.js": "^2.0.10"
   }
 }

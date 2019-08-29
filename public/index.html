@@ -15,7 +15,7 @@
    <link rel="icon" href="public/images/logo.png" type="image/x-icon"/> <!-- favicon -->
     
      <!-- CDNs -->
-  
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="   stylesheet" id="bootstrap-css">
    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -69,6 +69,11 @@
        <div class="column name">
          
           <h1>Get & Post Solutions</h1>
+          <div id="typed-strings">
+              <p>Got a <strong>problem?</strong></p>
+              <p>We got a <strong>solution!</strong></p>
+          </div>
+          <span id="typed"></span>
           <p><em><strong>Got a problem? We got a solution!</strong></em></p>
           <a href="/contact"><button type="button" class="btn btn-lg btn-danger">Book Us Now!</button></a>
        </div>
@@ -253,6 +258,15 @@
 <img onclick="topFunction()" id="myBtn" title="Go to top" src="public/images/arrow-up.png">
 
 <script src="public/scripts/particles.js"></script>
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 20,
+    backSpeed: 30,
+    loop: true,
+    startDelay: 1000,
+  });
+</script>
 <script src="public/scripts/app.js"></script>
 <script type="text/javascript" src="public/scripts/vanilla-tilt.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
