@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  
+  /* To limit the minimal width */
   min-width: 360px;
 }
 
@@ -196,9 +196,9 @@ hr{
    	  position: relative;
    	  left : 11.5%;
    }
-   .about-content p{
+   /* .about-content p{
 
-   }
+   } */
 }
 
 
